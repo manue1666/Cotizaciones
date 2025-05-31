@@ -18,22 +18,28 @@ Aplicación web para solicitar cotizaciones personalizadas, desarrollada con **R
 
 ## 🔧 Instalación
 
-1. **Clonar repositorio**  
-   ``` git clone https://github.com/manue1666/Cotizaciones.git ```
-   ``` cd Cotizaciones ```
+1. **Clonar repositorio**
+   ```
+    git clone https://github.com/manue1666/Cotizaciones.git 
+    cd Cotizaciones
+   ```
 
-2. **Instalar dependencias**  
-   ``` npm install ```
+3. **Instalar dependencias**  
+   ```
+    npm install
+    ```
 
-3. **Configurar variables** (crear .env):  
+5. **Configurar variables** (crear .env):  
    ```
    VITE_EMAILJS_SERVICE_ID=tu_service_id
    VITE_EMAILJS_TEMPLATE_ID=tu_template_id
    VITE_EMAILJS_USER_ID=tu_user_id
    ```
 
-4. **Ejecutar proyecto**  
-   ``` npm run dev ```
+6. **Ejecutar proyecto**  
+   ```
+    npm run dev
+   ```
 
 ## 🛠 Mejoras futuras
 - 🔐 Autenticación de usuarios
