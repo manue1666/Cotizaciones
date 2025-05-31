@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-//import de pagina
+//import de paginas y componentes
 import Home from './pages/Home.jsx';
 import Barra from './components/Barra.jsx';
 import Formulario from './pages/Formulario.jsx';
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-
+//la Barra de navegacion se muestra en todas las paginas
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <>

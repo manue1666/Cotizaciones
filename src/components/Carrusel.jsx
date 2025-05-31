@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 
-
+//componente de carrusel para acompañar el HOME
 function Carrusel() {
     return (
         <>
@@ -9,37 +9,31 @@ function Carrusel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg"
+                        src="https://bing.com/th/id/BCO.f0eaff9e-91e2-4599-b441-e6f4ff775375.png"
                         alt="primera imagen"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Diseño Web</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg"
+                        src="https://bing.com/th/id/BCO.1ef04c42-a18d-4fae-9881-ec2e956375fd.png"
                         alt="segunda imagen"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Análisis de Datos</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg"
+                        src="https://bing.com/th/id/BCO.ddbd8852-bb3a-4d2e-9644-fc09b8ac5019.png"
                         alt="tercera imagen"
                     />
-
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3>Marketing Digital</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

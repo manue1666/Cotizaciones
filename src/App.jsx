@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+//en desuso
 function App() {
   const [count, setCount] = useState(0)
 

@@ -1,12 +1,41 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Página de Cotizaciones
 
-Currently, two official plugins are available:
+Aplicación web para solicitar cotizaciones personalizadas, desarrollada con **React + Vite**, **Bootstrap** y **EmailJS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
+- 📩 Formulario con selección de servicio, complejidad y tiempo
+- 🏗 Vista previa en modal antes de enviar
+- 📄 Generación de PDF con jsPDF
+- ✉️ Envío automático por EmailJS
+- 💰 Cálculo dinámico de costos
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías
+- ⚛️ React + Vite
+- 🎨 Bootstrap 5
+- 📧 EmailJS
+- 🖨 jsPDF
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Instalación
+
+1. **Clonar repositorio**  
+   ``` git clone https://github.com/manue1666/Cotizaciones.git ```
+   ``` cd Cotizaciones ```
+
+2. **Instalar dependencias**  
+   ``` npm install ```
+
+3. **Configurar variables** (crear .env):  
+   ```
+   VITE_EMAILJS_SERVICE_ID=tu_service_id
+   VITE_EMAILJS_TEMPLATE_ID=tu_template_id
+   VITE_EMAILJS_USER_ID=tu_user_id
+   ```
+
+4. **Ejecutar proyecto**  
+   ``` npm run dev ```
+
+## 🛠 Mejoras futuras
+- 🔐 Autenticación de usuarios
+- 💾 Historial de cotizaciones
+- 🗃 Integración con base de datos
